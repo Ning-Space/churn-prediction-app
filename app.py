@@ -1,7 +1,7 @@
 # app.py
 import streamlit as st, requests
 
-N8N = "https://ning36.app.n8n.cloud/workflow/V104sWTYAB5hNYAb"
+N8N = "https://ning36.app.n8n.cloud/webhook-test/retention"
 
 st.title("Smart Customer Retention Assistant")
 name   = st.text_input("Customer name", "Jane Tan")
